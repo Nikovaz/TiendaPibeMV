@@ -1,0 +1,48 @@
+.social-float-button {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  transition: all 0.3s ease;
+}
+
+.social-float-button:hover {
+  transform: scale(1.1);
+}
+
+.whatsapp-button {
+  background-color: #25D366;
+  right: 25px;
+  bottom: 90px;
+}
+
+.instagram-button {
+  background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
+  right: 25px;
+  bottom: 160px;
+}
+
+@media (max-width: 768px) {
+  .social-float-button {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    right: 15px;
+  }
+  
+  .whatsapp-button {
+    bottom: 75px;
+  }
+  
+  .instagram-button {
+    bottom: 135px;
+  }
+}
