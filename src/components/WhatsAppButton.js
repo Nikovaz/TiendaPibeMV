@@ -3,7 +3,7 @@ import './SocialButtons.css';
 
 const WhatsAppButton = () => {
   // Número de WhatsApp (reemplazar con el número real)
-  const phoneNumber = '5491112345678';
+  const phoneNumber = '5491124566001';
   const message = 'Hola, me gustaría consultar por una reparación de celular';
   
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
