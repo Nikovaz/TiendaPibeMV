@@ -12,7 +12,7 @@ const Header = () => {
     <header className="header">
       <div className="container header-container">
         <div className="logo">
-          <img src={require('C:/Users/Nicolas/Desktop/matias-cell-repair-nuevo/src/assets/images/Logo.png')} alt="Matias Reparación de Celulares" />
+          <img src={require('../assets/images/Logo.png')} alt="Matias Reparación de Celulares" />
         </div>
         <div className={`menu-icon ${menuOpen ? 'active' : ''}`} onClick={toggleMenu}>
           <span></span>
