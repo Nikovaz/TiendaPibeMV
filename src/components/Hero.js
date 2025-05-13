@@ -1,10 +1,12 @@
 import React from 'react';
 import './Hero.css';
-import brokenPhoneImage from '../assets/images/broken-phone.svg';
+// Importamos la imagen de manera diferente
+// import brokenPhoneImage from '../assets/images/broken-phone.jpg';
 
 const Hero = () => {
+  console.log('Hero component rendering');
   return (
-    <section id="inicio" className="hero" style={{ '--broken-phone-bg': `url(${brokenPhoneImage})` }}>
+    <section id="inicio" className="hero">
       <div className="hero-content">
         <h1>Servicio Técnico de Celulares</h1>
         <h2>Reparación Profesional y Rápida</h2>
